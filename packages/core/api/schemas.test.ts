@@ -716,6 +716,7 @@ describe("SearchProjectsResponseSchema date drift", () => {
   const baseProject = {
     id: "p-1",
     workspace_id: "ws-1",
+    space_id: "space-1",
     title: "Launch",
     description: null,
     icon: null,
